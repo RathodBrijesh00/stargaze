@@ -1,0 +1,235 @@
+body{
+
+    background-color: black !important;
+}
+@font-face {
+    font-family: raleway;
+    src: url(Raleway-SemiBold.ttf);
+}
+.mainheight{
+
+    min-height: 100vh;
+}
+.thirdheight{
+
+    min-height: 40vh;
+}
+a{
+    color: gray !important;
+    font-family: raleway;
+    transition: .3s all linear;
+}
+a:hover{
+    color: white !important;
+    transition: .3s all linear;
+}
+h1{
+    font-family: raleway;
+}
+h3{
+    font-family: raleway;
+}
+h4{
+    font-family: raleway;
+}
+p{
+    font-family: raleway;
+}
+.icons{
+
+    color: gray !important;
+    transition: .3s all linear;
+}
+.icons:hover{
+
+    color: white !important;
+    transition: .3s all linear;
+}
+.navbar-toggler-icon{
+
+    color: white !important;
+}
+
+.image-first{
+
+    background: url(one.jpg);
+    background-size: cover;
+}
+.first-head{
+    width: 100%;
+    font-size: 80px;
+    color: white;
+    letter-spacing: 2px;
+}
+.buttonfirst{
+
+    background: transparent;
+    /* font-size: 20px; */
+    font-family: raleway;
+    border: none;
+    transition: .4s all linear;
+}
+.icon-button{
+
+    padding-left: 10px;
+    transition: .4s all linear;
+    transform: translateY(0px);
+}
+.buttonfirst:hover{
+    transform: translateY(-10px);
+    transition: .4s all linear;
+}
+.card-img{
+    height: 400px;
+
+    background: url(post42-copyright-890x664.jpg);
+    background-size: 130%;
+    background-position: left;
+    transition: .4s all linear;
+
+}
+.card-1:hover .card-img{
+
+    background-size: 150%;
+    transition: .4s all linear;
+}
+.card-img-2{
+    height: 400px;
+
+    background: url(post41-copyright-890x664.jpg);
+    background-size: 130%;
+    background-position: center;
+    transition: .4s all linear;
+
+}
+
+.card-1:hover .card-img-2{
+    background-size: 150%;
+    transition: .4s all linear;
+}
+
+.card-img-3{
+    height: 400px;
+
+    background: url(event5-copyright-890x664.jpg);
+    background-size: 130%;
+    background-position: center;
+    transition: .4s all linear;
+
+}
+
+.card-1:hover .card-img-3{
+    background-size: 150%;
+    transition: .4s all linear;
+}
+
+.roundedicon{
+
+    background-color: transparent;
+    /* color: transparent; */
+    outline: 1.5px solid rgb(90, 90, 90) !important;
+    transition: .3s all linear;
+}
+.card-1:hover .roundedicon{
+
+    outline: 1.5px solid white !important;
+    transition: .3s all linear;
+}
+.outline-liti{
+    z-index: 1 !important;
+    border-radius: 20px;
+    width: 100% !important;
+    height: 1.5px !important;
+    background-color: gray !important;
+}
+.card-1:hover .outline-liti{
+    z-index: 1 !important;
+    border-radius: 20px;
+    width: 100% !important;
+    height: 1.5px !important;
+    background-color: rgb(255, 255, 255) !important;
+    transition: .4s all linear;
+}
+.about-btn{
+    font-family: raleway;
+    border-radius: 40px;
+    border: none;
+    color: white;
+    background-color: rgb(58, 58, 240);
+    transition: .4s all linear;
+}
+.about-btn:hover{
+
+    border-radius: 40px;
+    border: none;
+    color: white;
+    font-family: raleway;
+    background-color: rgb(33, 33, 239);
+    transition: .4s all linear;
+}
+.card-fourth-1{
+
+    background: url(image24-copyright-qh4vrvpwev4elp6nyfbatloc2loi4mkvbn3i248eto.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.card-fourth-2{
+
+    background: url(pexels-pixabay-87009.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.playicon{
+
+    font-size: 50px;
+    color: gray !important;
+    border: 1px solid gray;
+    width: 70px !important;
+    height: 70px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    transition: .4s all linear;
+    font-weight: lighter;
+}
+.card-fourth-2:hover .playicon{
+
+    color: white !important;
+    border: 1px solid white;
+    transition: .4s all linear;
+}
+.fifth-1{
+    color: gray !important;
+    transition: .4s all linear;
+}
+.fifth-txt{
+
+    transition: .4s all linear;
+}
+.fifth-1:hover .fifth-txt{
+    color: white !important;
+    transition: .4s all linear;
+}
+.sixth-btn{
+
+    font-family: raleway;
+    border-radius: 40px;
+    border: none;
+    color: white;
+    background-color: rgb(58, 58, 240);
+    transition: .4s all linear;
+}
+.sixth-btn:hover{
+
+    border-radius: 40px;
+    border: none;
+    color: white;
+    font-family: raleway;
+    background-color: rgb(33, 33, 239);
+    transition: .4s all linear;
+}
+.container-fluid{
+
+    overflow: hidden !important;
+}
